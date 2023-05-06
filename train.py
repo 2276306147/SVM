@@ -119,7 +119,7 @@ if __name__ == '__main__':
     svm.setGamma(3)
     svm.setDegree(3)
     # 设置迭代终止条件
-    # 迭代次数，精度
+    # 迭代次数，精度度
     svm.setTermCriteria((cv2.TermCriteria_MAX_ITER, 40000, 1e-3))
     # 训练
     print("开始训练")
